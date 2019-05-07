@@ -1,0 +1,13 @@
+#from stunnel import stunnel.pem
+
+pid=
+
+cert = stunnel/stunnel.pem
+sslVersion = SSLv3
+foreground = yes
+output = stunnel.log
+
+[https]
+accept=8443
+connect=8001
+TIMEOUTclose=1

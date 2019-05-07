@@ -1,0 +1,2 @@
+
+HTTPS=1 python manage.py runserver 8001
